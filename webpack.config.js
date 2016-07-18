@@ -4,7 +4,7 @@ var autoprefixer = require('autoprefixer');
 var precss = require('precss');
 module.exports = {
     entry:  {
-        app: "./src/pages/index.js"
+        app: "./src/index.js"
     },
     output: {
         path: "build",
