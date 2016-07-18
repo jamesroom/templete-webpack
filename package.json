@@ -1,0 +1,43 @@
+{
+  "name": "templete-webpack",
+  "version": "1.0.0",
+  "description": "webpack template",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "sudo node server.js",
+    "build": "webpack --config webpack.config.min.js",
+    "lint": "./node_modules/.bin/eslint src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesroom/templete-webpack.git"
+  },
+  "keywords": [
+    "webpack",
+    "template"
+  ],
+  "author": "jamesroom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamesroom/templete-webpack/issues"
+  },
+  "homepage": "https://github.com/jamesroom/templete-webpack#readme",
+  "dependencies": {
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.7",
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "co": "^4.6.0",
+    "co-request": "^1.0.0",
+    "eslint": "^3.0.1",
+    "eslint-config-standard-react": "^2.5.1",
+    "koa": "^1.2.0",
+    "koa-send": "^3.2.0",
+    "postcss-loader": "^0.9.1",
+    "precss": "^1.4.0",
+    "webpack": "^1.13.1"
+  }
+}
