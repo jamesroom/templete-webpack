@@ -4,7 +4,7 @@
   "description": "webpack template",
   "main": "src/index.js",
   "scripts": {
-    "dev": "sudo node server.js",
+    "dev": "sudo node server.js | open ./demo/index.html",
     "build": "webpack --config webpack.config.min.js",
     "lint": "./node_modules/.bin/eslint src --fix"
   },
@@ -29,18 +29,24 @@
   "devDependencies": {
     "autoprefixer": "^6.3.7",
     "babel-core": "^6.10.4",
+    "babel-eslint": "~6.1.2",
     "babel-loader": "^6.2.4",
+    "babel-plugin-react-require": "^2.1.0",
     "babel-plugin-transform-object-rest-spread": "^6.8.0",
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-react": "^6.11.1",
+    "css-loader": "^0.23.1",
     "eslint": "^3.0.1",
     "eslint-config-standard": "^5.3.5",
     "eslint-config-standard-react": "^2.5.1",
     "eslint-plugin-promise": "^2.0.0",
     "eslint-plugin-react": "^5.2.2",
     "eslint-plugin-standard": "^2.0.0",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
     "postcss-loader": "^0.9.1",
     "precss": "^1.4.0",
+    "style-loader": "^0.13.1",
     "webpack": "^1.13.1"
   }
 }

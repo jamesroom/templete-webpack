@@ -15,10 +15,10 @@ module.exports = {
     },
 
     externals: {
-        'jQuery': 'jQuery',
-        'react': 'React',
-        'react-dom': 'ReactDOM',
-        'echarts': 'echarts'
+        // 'jQuery': 'jQuery',
+        // 'react': 'React',
+        // 'react-dom': 'ReactDOM',
+        // 'echarts': 'echarts'
     },
     plugins: [
         new webpack.optimize.OccurenceOrderPlugin()

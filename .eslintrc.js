@@ -5,6 +5,7 @@ module.exports = {
       "react/jsx-space-before-closing": 0,
       "react/jsx-no-bind": 0,
       "react/display-name": 0,
+      "react/react-in-jsx-scope": 0,
       "no-bitwise": 0,
       "no-return-assign": 0,
       "jsx-quotes": 1,
